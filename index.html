@@ -4,11 +4,19 @@
         <title>Open Portal</title>
         
         <style>
-            
+            body {
+                background-color: Blue;
+            }
         </style>
         
     </head>
     <body>
-        
+        <dialog open id=SearchDialog>
+            <h1>Open Portal</h1>
+            
+            <input type=search id=search placeholder=Search>
+            <input type=submit id=searchSubmit value=Search onclick=Search()>
+            
+        </dialog>
     </body>
 </HTML>
