@@ -9,12 +9,20 @@
             }
         </style>
         
+        <script>
+            function Search() {
+                var query = document.getElementById("search").value;
+                location.replace("https://www.google.com/search?&q=" + ) 
+            }
+        </script>
+        
     </head>
     <body>
         <dialog open id=SearchDialog>
+            
             <h1>Open Portal</h1>
             
-            <input type=search id=search placeholder=Search>
+            <input type=search id=search placeholder=Search autofocus=on required 
             <input type=submit id=searchSubmit value=Search onclick=Search()>
             
         </dialog>
