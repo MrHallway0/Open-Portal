@@ -16,16 +16,15 @@
                 location.replace("https://www.google.com/search?&q=" + query) 
             }
             
-                    
-          /*Random Background Image-
-            By JavaScript Kit (www.javascriptkit.com)
-            More free JavaScripts here!
-            */
-            
-            var randombgs=["../clip/backgr4.jpg", "../clip/backgr17.jpg", "../clip/backgr13.jpg"]
-            
-            document.body.style.background='white url('+Math.floor(Math.random()*randombgs.length)]+')')
-    
+            $(document).ready(function(){
+                var classCycle=['./Wallpapers/treesSnowRoad.JPG','./Wallpapers/tallTrees.jpg', './Wallpapers/tallGrass.jpeg', './Wallpapers/rocknight.jpeg', 
+                               './Wallpapers/rockbreach.jpeg', './Wallpapers/land.jpeg', './Wallpapers/coolrock.jpeg', './Wallpapers/beach.jpeg'];
+                
+                var randomNumber = Math.floor(Math.random() * classCycle.length);
+                var classToAdd = classCycle[randomNumber];
+                
+                $('body').addClass(classToAdd);
+            });
         </script>
     </head>
     <body>
