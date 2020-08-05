@@ -5,7 +5,7 @@
         
         <style>
             body {
-                background-color: Blue;
+                background-image: url("./wallpaper/rockbeach.jpeg");
                 font-family: Arial, Helvetica, sans-serif;
             }
         </style>
@@ -15,16 +15,6 @@
                 var query = document.getElementById("search").value;
                 location.replace("https://www.google.com/search?&q=" + query) 
             }
-            
-            $(document).ready(function(){
-                var classCycle=['./Wallpapers/treesSnowRoad.JPG','./Wallpapers/tallTrees.jpg', './Wallpapers/tallGrass.jpeg', './Wallpapers/rocknight.jpeg', 
-                               './Wallpapers/rockbreach.jpeg', './Wallpapers/land.jpeg', './Wallpapers/coolrock.jpeg', './Wallpapers/beach.jpeg'];
-                
-                var randomNumber = Math.floor(Math.random() * classCycle.length);
-                var classToAdd = classCycle[randomNumber];
-                
-                $('body').addClass(classToAdd);
-            });
         </script>
     </head>
     <body>
