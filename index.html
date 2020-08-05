@@ -11,15 +11,6 @@
         </style>
         
         <script>
-            
-            document.getElementById("search")
-            .addEventListener("keyup", function(event) {
-                event.preventDefault();
-                if (event.keyCode === 13) {
-                    document.getElementById("searchSubmit").click();
-                }
-            });
-            
             function Search() {
                 var query = document.getElementById("search").value;
                 location.replace("https://www.google.com/search?&q=" + query) 
@@ -32,11 +23,12 @@
             
             <center>
                 
-                <h1>Open Portal</h1>
-                
-                <input type=search id=search placeholder=Search autofocus=on required>
-                <button id=searchSubmit onclick=Search()>Search</button>
-                
+                <form id=searchForm onSubmit=Search()>
+                    <h1>Open Portal</h1>
+                    
+                    <input type=search id=search placeholder=Search autofocus=on required>
+                    <input type=submit id=submit value=Submit>
+                </form>
             </center>
             
         </dialog>
