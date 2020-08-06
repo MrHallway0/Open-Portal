@@ -11,6 +11,7 @@ https://www.google.com/
 
 https://www.ecosia.org/
 
+https://weatherwidget.io/
 
 http://jsfiddle.net/ (and all of those users!)
 
