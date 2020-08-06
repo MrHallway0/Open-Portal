@@ -13,16 +13,20 @@
                 color: black;
             }
             
-            .column {
-                float: left;
-                width: 50%;
+            .feed-title {
+                color: Black;
             }
             
-            /* Clear floats after the columns */
-            .row:after {
-                content: "";
-                display: table;
-                clear: both;
+            .feed-desc {
+                color: Black;
+            }
+            
+            .feed-item-title {
+                color: Black;
+            }
+            
+            .feed-item-desc {
+                color: Black;
             }
         </style>
         
@@ -41,18 +45,14 @@
         
         <br>
         
-        <div class="row">
-            <div class="column">
-                <h1>Open Landing</h1>
-                
-                <br>
-                
-                <input type=search id=search placeholder=Search autofocus=on required>
-                <button id=searchSub onclick=Search()>Search</button>
-            </div>
-            <div class="column">
-                <script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Fnews%2Frss&detail=-1&limit=5&type=js"></script>
-            </div>
-        </div>
+        <h1>Open Landing</h1>
+        
+        <br>
+        
+        <input type=search id=search placeholder=Search autofocus=on required>
+        <button id=searchSub onclick=Search()>Search</button>
+        
+        
+        <script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Fnews%2Frss&detail=-1&limit=5&type=js"></script>
     </body>
 </HTML>
