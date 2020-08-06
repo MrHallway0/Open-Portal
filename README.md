@@ -6,6 +6,7 @@ https://www.tutorialrepublic.com/
 
 https://www.w3schools.com/
 
+https://hackernoon.com/ (and the writers on that platform)
 
 https://www.google.com/
 
