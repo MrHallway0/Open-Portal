@@ -16,4 +16,6 @@ http://jsfiddle.net/ (and all of those users!)
 
 https://www.willyweather.com/ (make a widget here: https://www.willyweather.com/widget/create.html)
 
+https://www.rttnews.com/widget/getwidget.aspx
+
 Thanks to StackOverflow and all of the amazing people on the site!
