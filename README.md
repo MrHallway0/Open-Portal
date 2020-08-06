@@ -1,5 +1,5 @@
-# Open-Portal
-Open Portal is an open source web portal for you web needs!
+# Open-Landing
+Open Landing is an open source web portal for you web needs!
 
 ## Refrence
 https://www.tutorialrepublic.com/
