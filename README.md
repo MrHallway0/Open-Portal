@@ -16,4 +16,6 @@ https://weatherwidget.io/
 
 http://jsfiddle.net/ (and all of those users!)
 
+http://100widgets.com/
+
 Thanks to StackOverflow and all of the amazing people on the site!
