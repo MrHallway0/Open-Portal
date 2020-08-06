@@ -18,32 +18,11 @@
                 var query = document.getElementById("search").value;
                 location.replace("https://www.google.com/search?&q=" + query) 
             }
-            
-            function LocatationGiven() {
-                var location = document.getElementById("LocationInput").value;
-                document.getElementById("weather").innerHTML="<a id=weather class='weatherwidget-io' href='https://forecast7.com/en/40d71n74d01/new-york/?unit=us' data-label_1='" + location + "' data-label_2='WEATHER' data-theme='pure'>" + location + " WEATHER</a>";
-            }
-            
-            function GeoLocation() {
-                alert("Couldn't Find location")
-            }
         </script>
     </head>
     <body>
         
-        <input type=Text id=LocationInput placeholder=Location autofocus=off required>
-        <button id=LocationSub onclick=LocatationGiven()>Find My Location</button>
-        <button id=GeoLocation onclick=GeoLocation()>Find it for me!</button>
-        
-        <center>
-            <div id=weather>
-                <a id=weather class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/?unit=us" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="pure" >NEW YORK WEATHER</a>
-            </div>
-        </center>
-        
-        <script>
-            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-        </script>
+        <script type="text/javascript" src="//100widgets.com/js_data.php?id=237"></script>
         
         <br>
         
