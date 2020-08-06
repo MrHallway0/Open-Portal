@@ -12,10 +12,8 @@ https://www.google.com/
 
 https://www.ecosia.org/
 
-https://weatherwidget.io/
-
 http://jsfiddle.net/ (and all of those users!)
 
-http://100widgets.com/
+https://www.willyweather.com/ (make a widget here: https://www.willyweather.com/widget/create.html)
 
 Thanks to StackOverflow and all of the amazing people on the site!
