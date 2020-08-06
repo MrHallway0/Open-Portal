@@ -18,4 +18,6 @@ https://www.willyweather.com/ (make a widget here: https://www.willyweather.com/
 
 https://www.rttnews.com/widget/getwidget.aspx
 
+https://www.feedroll.com/
+
 Thanks to StackOverflow and all of the amazing people on the site!
