@@ -1,3 +1,5 @@
+<!-- https://github.com/MrHallway0/open-landing -->
+
 <!DOCTYPE HTML>
 <HTML>
     <head>
@@ -7,23 +9,28 @@
         
         <style>
             body {
-                background-color: lightGrey;
+            	border-radius: 5px;
+                background-image: url("./wallpaper/coolrock.jpeg");
+		    	background-repeat: no-repeat;
+				background-size: cover;
                 font-family: Arial, Helvetica, sans-serif;
                 background-repeat: no-repeat;
                 color: black;
             }
             
 	     	#TopBar {
+            	border-radius: 5px;
             	background-color: grey;
                 padding: 5px 5px;
 			}
             
-            #weather {
-                float: left;
+            #search {
+            	border-radius: 5px;
+                
             }
             
-            #news {
-            	float: right;
+            #weather {
+            	border-radius: 5px;
             }
             
             
@@ -39,26 +46,27 @@
     <body>
         
 		<div id=TopBar>
-	        <center><div><h2>Open Landing</h2></div></center>
+            <center><div><h2>Open Landing</h2></div></center>
+            
+            <center><div id=weather style="width: 450px"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=127949" width="450" height="92" frameborder="0" scrolling="no"></iframe><a style="height: 92px;margin: -92px 0 0 0;text-indent: -9999em;width: 20px;position: relative;float: right;z-index: 1" href="https://www.willyweather.com/ny/new-york-county/new-york.html" rel="nofollow">forecasts</a></div></center>
             
         	<br>
-        	
-    	    <input type=search id=search placeholder=Search autofocus=on size=10 required>        
-	        <button id=searchSub onclick=Search()>Search</button>
-        	
         </div>
         
         <br>
         
         <center>
-                <div id=weather style="width: 450px"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=127949" width="450" height="92" frameborder="0" scrolling="no"></iframe><a style="height: 92px;margin: -92px 0 0 0;text-indent: -9999em;width: 20px;position: relative;float: right;z-index: 1" href="https://www.willyweather.com/ny/new-york-county/new-york.html" rel="nofollow">forecasts</a></div>
+            <input type=search id=search placeholder=Search autofocus=on size=10 required>        
+	        <button id=searchSub onclick=Search()>Search</button>
         </center>
         
-        <center>
-        	<div id=news>
-            	news
-            </div>
-        </center>
+        <footer>
+	        <!-- AddToAny BEGIN -->
+		<a href="https://www.addtoany.com/share#url=https%3A%2F%2Fmrhallway0.github.io%2Fopen-landing%2F&amp;title=Open%20Landing" target="_blank">
+        		<img src="https://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share">
+        	</a>
+			<!-- AddToAny END -->
+        </footer>
         
         </body>
 </HTML>
