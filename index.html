@@ -11,7 +11,7 @@
             body {
             	border-radius: 5px;
                 background-image: url("./wallpaper/coolrock.jpeg");
-				background-repeat: no-repeat;
+		        background-repeat: no-repeat;
 				background-size: cover;
                 font-family: Arial, Helvetica, sans-serif;
                 background-repeat: no-repeat;
@@ -37,9 +37,36 @@
         </style>
         
         <script type="text/javascript">
+            
+            var searchEngine="Google";
+            
+            function Google() {
+                var searchEngine="Google";
+            }
+            
+            function Bing() {
+                var searchEngine="Bing";
+            }
+            
+            function Ecosia() {
+                var searchEngine="Ecosia";
+            }
+            
+            
             function Search() {
                 var query = document.getElementById("search").value;
-                location.replace("https://www.google.com/search?&q=" + query) 
+                
+                if (searchEngine = "Google") {
+                    location.replace("https://www.google.com/search?&q=" + query)
+                }
+                
+                if (searchEngine = "Bing") {
+                    location.replace("https://www.bing.com/search?q=" + query)
+                }
+                
+                if (searchEngine = "Ecosia") {
+                    location.replace("https://www.ecosia.org/search?q=" + query)
+                }
             }
         </script>
     </head>
@@ -61,8 +88,10 @@
         </center>
         
         <footer>
+            
+            <p>set search engine to </p> <button onClick=Google()>Google</button> <button onClick=Bing()>Bing</button> <button onClick=Ecosia()>Ecosia</button>
 	        <!-- AddToAny BEGIN -->
-	        	<a href="https://www.addtoany.com/share#url=https%3A%2F%2Fmrhallway0.github.io%2Fopen-landing%2F&amp;title=Open%20Landing" target="_blank">
+	        <a href="https://www.addtoany.com/share#url=https%3A%2F%2Fmrhallway0.github.io%2Fopen-landing%2F&amp;title=Open%20Landing" target="_blank">
         		<img src="https://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share">
         	</a>
 			<!-- AddToAny END -->
